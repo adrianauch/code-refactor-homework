@@ -24,7 +24,7 @@ header h1 {
 header h1 .seo {
   color: #d9dcd6;
 }
-
+/* formatting for the navigation bar */
 header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -32,24 +32,20 @@ header nav {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
-
-header nav ul {
-  list-style-type: none;
-}
-
+/* formating for the clickable links in the nav bar */
 header nav ul li {
+  list-style-type: none;
   display: inline-block;
   margin-left: 25px;
 }
-
-a {
+/* anchor and font size for the web application */
+a,
+p {
   color: #ffffff;
   text-decoration: none;
-}
-
-p {
   font-size: 16px;
 }
+
 /* backgound Image */
 .hero {
   height: 800px;
@@ -133,10 +129,6 @@ p {
   font-size: 36px;
 }
 
-.social-media-marketing h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
 /* stylizes the footer */
 */ footer {
   padding: 30px;
